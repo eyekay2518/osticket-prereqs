@@ -95,6 +95,8 @@ CleanUp:
 Delete the setup folder inside your osticket folder by clicking on the (C) folder,then inetpub,then wwwroot,then osticket,in the osticket folder we click on the setup file to delete.
 
 
+https://imgur.com/a/Q2BD1wt
+
 
 
 
