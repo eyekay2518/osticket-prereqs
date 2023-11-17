@@ -54,6 +54,19 @@ we click on standard configuration,set up password of our choice.
 ![Capture7c-MySQL Password](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/82fce911-bf6d-4e1e-a32b-a0c7905de505)
 Then execute and finish
 ![Capture7-MySQL install](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/a71b3aba-ef4f-48e7-ade2-8c2222329668)
+Open the previously installed IIS, register PHP by clicking on the PHP manager icon, and follow all necessary path. 
+Reload IIS by stopping and restarting the server.
+![Capture8](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/11931156-a33d-4f7d-8b05-a96042decc78)
+![Capture8a](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/5371c098-1d9c-4704-bba5-7b0289fba091)
+Download and install osticket from the Installation files
+From the just downloaded osTicket, we move the folder called "upload" to the windows(C)folder called inetpub. In inetpub, we move folder to another folder called wwwroot
+![Capture9](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/d1c8a57d-54d7-462b-94ae-42eed2cf41e7)
+Rename the folder called upload to osticket
+We then reload IIS by stopping and restarting
+From IIS, we go to sites,then default, osticket, on the right we click on Browse *80 (http)
+By clicking on Browse *80, it takes us to the osticket installer URL, we see some extensions are not enabled
+
+
 
 
 
