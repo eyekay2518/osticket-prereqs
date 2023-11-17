@@ -64,7 +64,24 @@ From the just downloaded osTicket, we move the folder called "upload" to the win
 Rename the folder called upload to osticket
 We then reload IIS by stopping and restarting
 From IIS, we go to sites,then default, osticket, on the right we click on Browse *80 (http)
+![Capture10](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/d3690681-c50d-4904-a13d-9a3c1afba3fb)
 By clicking on Browse *80, it takes us to the osticket installer URL, we see some extensions are not enabled
+![Capture11](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/5eb02590-bda4-408a-8d0e-409d15b83eb2)
+To enable extensions, click PHP manager,then we go to enable or disable extension. We then enable the following extension
+(a) php-imap.dll
+(b) php-itl.dll
+(c) php-opcache.dll
+Refresh and notice the changes
+![Capture11b](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/26b07091-6f9c-4fdf-a3e4-9fb68a10cb2b)
+From the osticket installation folder, we rename folder called ost-sampleconfig.php to ost-config.php.This is done by clicking on  the windows(C) folder,click on inetpub,then wwwroot,then osticket, we click on file called include,then on  the ost-sampleconfig.php file we rename to ost-config.php.
+We have to assign permission to the just renamed  ostconfig.php file. 
+To do that, from the windows(C) file click on inetpub,followed by wwwroot,then osticket,click on the include file, then from the ost-config.php file,right click to open properties ,then click on security, then advanced 
+![Capture15-Set permissions to read only](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/a878f865-d88e-4156-9f49-b9e2190dad1c)
+Continue setting up
+
+
+
+
 
 
 
