@@ -33,7 +33,7 @@ Windows 10</b> (21H2)
 
 <h2>Installation Steps</h2>
 These are the steps to be taken to implement the processs of installation of osTicket.
-1. On our web browser we visit www.portal.azure.com. We create a resource group and give it any name of our choosing, after this is done we proceeed to create the Azure virtual Machine, the virtual machine will have to be created with at least 2Vcpu and a memory of 16gb.
+1. On our web browser we visit www.portal.azure.com. We create a resource group and give it any name of our choosing, after this is done we proceeed to create the Azure virtual Machine, the virtual machine will have to be created with at least 2 Virtual cpu and a memory of 16gb.
 2. Once the virtual machine has been created we would establish connection between the Virtual machine and Remote desktop connection by getting the IP address of virtual machine just created and pasting into the remote network connection. 
 ![Capture](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/13229f34-cc03-4fa8-b7a7-598b67f0ebd5)
 3.Install and enable IIS: From the control panel in the virtual machine, we search Programs,then on the programs and features options we click on turn windows features off or on. On the turn windows features OFF or ON, we check all the required options in the checkbox, this include internet information services, world wide web services,application development features,CGI, common HTTP features. To ensure that IIS is enabled/installed on our virtual machine, we input the ip address 127.0.0.1, this ensures that the computer connects and communicates with itself.
@@ -77,7 +77,27 @@ From the osticket installation folder, we rename folder called ost-sampleconfig.
 We have to assign permission to the just renamed  ostconfig.php file. 
 To do that, from the windows(C) file click on inetpub,followed by wwwroot,then osticket,click on the include file, then from the ost-config.php file,right click to open properties ,then click on security, then advanced 
 ![Capture15-Set permissions to read only](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/a878f865-d88e-4156-9f49-b9e2190dad1c)
-Continue setting up
+Continue setting up osticket in browser,click continue, then enter your preferred  helpdesk name and email under the helpdesk URL.
+![Capture12](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/7b21aff9-1f2f-43b6-a96f-0509499de8d0)
+From the installation file, download and install Heidi SQL
+open Heidi SQL
+Create a new session with the following credentail detail
+User: root 
+Password:Password1
+![Capture13b-HeidiSQL](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/ee30c716-ed9b-40de-b74e-eb8ed67154d3)
+After this is done, we connect to the session, and create a database called osticket
+![Capture13c-HeidiSQL database called osticket](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/45d76ae2-7519-4be8-b38a-c0f1f4ed5e74)
+Finish up installation of osticket
+![Capture14-osTicket Installation](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/e13c3435-7f8b-4b57-ac7c-dc54a8bf5b02)
+![Capture16-Complete Installation](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/3d81fa48-14a7-45fd-81a8-102cbfb906f4)
+
+CleanUp:
+Delete the setup folder inside your osticket folder by clicking on the (C) folder,then inetpub,then wwwroot,then osticket,in the osticket folder we click on the setup file to delete.
+
+
+
+
+
 
 
 
