@@ -100,7 +100,7 @@ https://imgur.com/a/Q2BD1wt
 <img src="https://imgur.com/Q2BD1wt.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 
-
+<img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/e13c3435-7f8b-4b57-ac7c-dc54a8bf5b02" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 
 
