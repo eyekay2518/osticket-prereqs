@@ -33,7 +33,8 @@ Windows 10</b> (21H2)
 
 <h2>Installation Steps</h2>
 <h3>These are the steps to be taken to implement the processs of installation of osTicket.</h3>
-1. On our web browser we visit www.portal.azure.com. We create a resource group and give it any name of our choosing, after this is done we proceeed to create the Azure virtual Machine, the virtual machine will have to be created with at least 2 Virtual cpu and a memory of 16gb.
+<p>
+1. On our web browser we visit www.portal.azure.com. We create a resource group and give it any name of our choosing, after this is done we proceeed to create the Azure virtual Machine, the virtual machine will have to be created with at least 2 Virtual cpu and a memory of 16gb.</p>
 2. Once the virtual machine has been created we would establish connection between the Virtual machine and Remote desktop connection by getting the IP address of virtual machine just created and pasting into the remote network connection. 
 ![Capture](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/13229f34-cc03-4fa8-b7a7-598b67f0ebd5)
 3.Install and enable IIS: From the control panel in the virtual machine, we search Programs,then on the programs and features options we click on turn windows features off or on. On the turn windows features OFF or ON, we check all the required options in the checkbox, this include internet information services, world wide web services,application development features,CGI, common HTTP features. To ensure that IIS is enabled/installed on our virtual machine, we input the ip address 127.0.0.1, this ensures that the computer connects and communicates with itself.
