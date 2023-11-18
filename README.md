@@ -40,6 +40,7 @@ Windows 10</b> (21H2)
 <div style="text-align: center;">
 <img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/04daab5e-8fcc-4f5a-bdbc-fd4a011fd131"
 height="50%" width="40%" alt="remote desktop"/>
+</div>
 <br><br>
 <p>
 3. Install and enable IIS: From the control panel in the virtual machine, we search Programs,then on the programs and features options we click on turn windows features off or on. On the turn windows features OFF or ON, we check all the required options in the checkbox, this include internet information services, world wide web services,application development features,CGI, common HTTP features. To ensure that IIS is enabled/installed on our virtual machine, we input the ip address 127.0.0.1, this ensures that the computer connects and communicates with itself.
