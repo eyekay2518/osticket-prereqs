@@ -49,7 +49,7 @@ height="50%" width="50%" alt="remote desktop">
   height="70%" width="70%" alt="disk sanitization step"/>
   <br>
 4. Download and install PHP Manager for IIS
-<img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/1540d761-1083-47fa-9660-f07917fe2e12
+<img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/1540d761-1083-47fa-9660-f07917fe2e12"
   height="50%" width="50%" alt="disk sanitization step"/>
 5. From the installation files,we download and install the IIS URL rewrite module
  <img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/d2f1c3e0-75e8-480b-972c-efcfa632d6af
