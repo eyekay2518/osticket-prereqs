@@ -39,7 +39,7 @@ Windows 10</b> (21H2)
 2. Once the virtual machine has been created we would establish connection between the Virtual machine and Remote desktop connection by getting the IP address of virtual machine just created and pasting into the remote network connection. </p>
 <div style="text-align: center;">
 <img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/04daab5e-8fcc-4f5a-bdbc-fd4a011fd131"
-height="50%" width="40%" alt="remote desktop"/>
+height="50%" width="40%" alt="remote desktop">
 </div>
 <br><br>
 <p>
