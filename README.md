@@ -46,7 +46,7 @@ height="50%" width="50%" alt="remote desktop">
 3. Install and enable IIS: From the control panel in the virtual machine, we search Programs,then on the programs and features options we click on turn windows features off or on. On the turn windows features OFF or ON, we check all the required options in the checkbox, this include internet information services, world wide web services,application development features,CGI, common HTTP features. To ensure that IIS is enabled/installed on our virtual machine, we input the ip address 127.0.0.1, this ensures that the computer connects and communicates with itself.
 </p>
 <img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/6f173f1e-a7d4-4192-aafd-94b989e5f6c7" 
-  height="70%" width="100%" alt="disk sanitization step"/>
+  height="70%" width="70%" alt="disk sanitization step"/>
 4. Download and install PHP Manager for IIS
 ![Capture4-php manager for IIS](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/1540d761-1083-47fa-9660-f07917fe2e12)
 5. From the installation files,we download and install the IIS URL rewrite module
