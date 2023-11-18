@@ -47,10 +47,13 @@ height="50%" width="50%" alt="remote desktop">
 </p>
 <img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/6f173f1e-a7d4-4192-aafd-94b989e5f6c7" 
   height="70%" width="70%" alt="disk sanitization step"/>
+  <br>
 4. Download and install PHP Manager for IIS
-![Capture4-php manager for IIS](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/1540d761-1083-47fa-9660-f07917fe2e12)
+<img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/1540d761-1083-47fa-9660-f07917fe2e12
+  height="50%" width="50%" alt="disk sanitization step"/>
 5. From the installation files,we download and install the IIS URL rewrite module
-![Capture5-IIS Url Rewrite Module](https://github.com/eyekay2518/osticket-prereqs/assets/67752659/d2f1c3e0-75e8-480b-972c-efcfa632d6af)
+ <img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/d2f1c3e0-75e8-480b-972c-efcfa632d6af
+  height="70%" width="70%" alt="disk sanitization step"/>
 6. ON the virtual machine, go to windows(C) and create a folder, we name the folder PHP
 7. We then proceed to download and install PHP 7.3.8, after download is done extract all content of the just downloaded file to C:\PHP
 8. Download and install VC.redistX8.exe
