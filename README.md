@@ -177,7 +177,6 @@ Delete the setup folder inside your osticket folder by clicking on the (C) folde
 
 
 
-<img src="https://github.com/eyekay2518/osticket-prereqs/assets/67752659/e13c3435-7f8b-4b57-ac7c-dc54a8bf5b02" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
 
 
@@ -197,4 +196,4 @@ Delete the setup folder inside your osticket folder by clicking on the (C) folde
 
 
 
-<br />
+
